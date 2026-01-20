@@ -1,53 +1,102 @@
 \documentclass[12pt]{article}
 
+% Packages 
 \usepackage{geometry}
-\geometry{margin=0.85in}
+\geometry{margin=1in}
 
-\title{\textbf{Programming: Teaching Machines How to Think and Humans How to Solve Problems}}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{titlesec}
 
-\author{
-Bhavesh Gadling \\
-MIS Number: 612415061 \\
-Affiliation: COEP Technological University \\
+\definecolor{titlecolor}{RGB}{0,51,102}
+\definecolor{sectioncolor}{RGB}{0,76,153}
+\definecolor{subsectioncolor}{RGB}{64,64,64}
+
+\titleformat{\section}
+  {\color{sectioncolor}\bfseries\Large}
+  {\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\color{subsectioncolor}\bfseries\large}
+  {\thesubsection}{1em}{}
+
+\title{
+\color{titlecolor}
+\textbf{Programming: Teaching Machines How to Think and Humans How to Solve Problems}
 }
 
-\date{2025-01-13}
+\author{
+\textbf{Bhavesh Gadling} \\
+MIS Number: 612415061 \\
+Affiliation: COEP Technological University
+}
 
+\date{13 January 2025}
+% document start
 \begin{document}
 \maketitle
+\pagenumbering{gobble}
+
+% Introduction 
+\section{Introduction}
 
 Programming is often misunderstood as the simple act of writing code. 
 In reality, it is the art of breaking complex ideas into precise instructions that a machine can understand.
-A programmer does not merely type commands; they design logic, anticipate failures, and transform abstract problems into working systems. 
-Programming is less about computers and more about how humans think and reason.
+A programmer does not merely type commands; instead, they design logic, anticipate failures, and transform abstract problems into working systems.
+Thus, programming is less about computers and more about how humans think and reason.
+
+% Problem Solving
+\section{Programming as a Problem-Solving Tool}
+
+\subsection{Understanding the Problem}
 
 At its core, programming is problem-solving.
-Every program begins with a question: how can a task be completed efficiently and correctly?
-Whether it involves calculating results, managing data, or operating a large digital platform,
-the programmer must analyze the problem carefully, divide it into smaller components, and arrange these components in a logical sequence.
-This structured approach develops clarity of thought and helps programmers tackle even the most complex challenges.
+Every program begins with a fundamental question: \textit{How can a task be completed efficiently and correctly?}
+Whether the task involves performing calculations, managing large datasets, or operating digital platforms,
+the programmer must analyze the problem carefully before attempting to solve it.
 
-One of the most fascinating aspects of programming is its demand for precision. 
+\subsection{Breaking Problems into Components}
+
+A key aspect of programming is dividing complex problems into smaller, manageable parts.
+These components are then arranged in a logical sequence that a computer can execute.
+This structured approach not only improves program efficiency but also enhances clarity of thought,
+allowing programmers to handle even the most complex challenges with confidence.
+
+% Precision
+\section{The Importance of Precision}
+
+One of the most fascinating aspects of programming is its demand for absolute precision.
 Computers follow instructions exactly as they are written—nothing more and nothing less.
-Even a small mistake, such as a missing symbol or an incorrect condition, can cause an entire system to fail.
-This strict nature of programming encourages programmers to think carefully and pay close attention to detail. 
-Debugging, in particular, teaches patience and discipline, reinforcing the idea that errors are not failures but opportunities to improve solutions.
+Even a minor error, such as a missing symbol or an incorrect condition, can cause an entire system to fail.
 
-Despite its logical nature, programming is also a creative process. 
-There are often multiple ways to solve the same problem, and different programmers may choose different approaches, algorithms, or designs.
-Programming allows individuals to express creativity through problem-solving and system design. From building games and websites to developing complex software systems,
-programming transforms imagination into practical and functional reality.
+\subsection{Learning Through Debugging}
 
+Debugging plays a crucial role in the programming process.
+It teaches patience, discipline, and attention to detail.
+Rather than viewing errors as failures, programmers learn to treat them as opportunities to refine their logic and improve their solutions.
 
-Programming plays a vital role in shaping the modern world. It powers banking systems,
-healthcare platforms, communication networks, and even space exploration technologies. 
-Software enables automation on a massive scale, allowing tasks to be completed faster and more accurately than ever before.
-A single well-designed program can serve millions of people, solving problems that would be impossible to handle manually.
+% Creativity
+\section{Creativity in Programming}
 
-In conclusion, programming is far more than a technical skill;
-it is a way of thinking.
-It teaches logical reasoning, creativity, and resilience in the face of challenges. 
-By learning how to instruct machines, programmers also learn how to approach problems systematically and confidently. 
-In a world increasingly driven by software, programming stands as one of the most powerful and transformative skills a person can acquire.
+Despite its logical foundation, programming is also a creative discipline.
+There are often multiple ways to solve the same problem, and each programmer may choose a different algorithm, structure, or design approach.
+From developing games and websites to building complex software systems,
+programming enables individuals to transform imagination into functional reality.
+
+% Impact
+\section{Impact of Programming on the Modern World}
+
+Programming plays a vital role in shaping the modern world.
+It powers banking systems, healthcare platforms, communication networks, and space exploration technologies.
+Through automation, software allows tasks to be completed faster, more accurately, and at an unprecedented scale.
+A single well-designed program can serve millions of users worldwide.
+
+% Conclusion
+\section{Conclusion}
+
+In conclusion, programming is far more than a technical skill—it is a way of thinking.
+It fosters logical reasoning, creativity, and resilience in the face of challenges.
+By learning how to instruct machines, programmers also learn how to approach problems systematically and confidently.
+In an increasingly software-driven world, programming stands as one of the most powerful and transformative skills a person can acquire.
 
 \end{document}
