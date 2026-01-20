@@ -16,6 +16,17 @@
 *.gch
 *.pch
 
+*.log
+*.aux
+*.out
+*.toc
+*.bbl
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
 # Libraries
 *.lib
 *.a
