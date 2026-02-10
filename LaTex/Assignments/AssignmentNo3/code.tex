@@ -1,0 +1,235 @@
+% Compile with XeLaTeX
+\documentclass[dvipsnames,mathserif,aspectratio=169,10pt]{beamer}
+
+\setbeamertemplate{footline}[frame number]
+\setbeamercolor{footline}{fg=black}
+\setbeamerfont{footline}{series=\bfseries}
+
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage{amsmath}
+
+\usetheme{Frankfurt}
+
+\setbeamertemplate{navigation symbols}{}
+
+% LOGO
+\logo{%
+  \makebox[0.98\paperwidth]{
+    \includegraphics[width=0.80cm]{Logos/COEP-Tech-Pune-Logo-3013335431.png}
+    \hspace{5cm}
+    \includegraphics[scale=0.20]{Logos/co.png}
+    \hfill
+    \includegraphics[]{Logos/Logo.png}
+  }
+}
+
+% Item style
+\setbeamertemplate{itemize item}{\scriptsize\raise1.25pt\hbox{$\blacktriangleleft$}}
+
+% Title info (from IEEE paper)
+\title[Programming Concepts]
+{An Overview of Programming Concepts and Their Applications}
+
+\author[Bhavesh Gadling]
+{Bhavesh Gadling \\ MIS: 612415061}
+
+\institute[COEP Tech]
+{
+Department of Computer Science and Engineering\\
+COEP Technological University\\
+Pune, India
+}
+
+\date{\today}
+
+\begin{document}
+
+% Title Slide
+\begin{frame}
+\maketitle
+\end{frame}
+
+% Table of Contents
+\begin{frame}{Outline}
+\begin{center}
+\footnotesize
+\tableofcontents
+\end{center}
+\end{frame}
+
+
+% Introduction
+\section{Introduction}
+
+\begin{frame}{Introduction}
+\begin{itemize}
+    \item Programming is the process of designing and writing instructions for computers.
+    \item Programs are written using formal programming languages.
+    \item Enables problem-solving from simple tasks to complex systems.
+    \item Forms the foundation of modern computing.
+\end{itemize}
+\end{frame}
+
+% Evolution of Programming
+\section{Evolution of Programming}
+
+\begin{frame}{Evolution of Programming Languages}
+\begin{itemize}
+    \item Early programs used machine and assembly languages.
+    \item Difficult to write, understand, and debug.
+    \item Introduction of high-level languages improved abstraction.
+    \item Examples: C, Java, Python.
+\end{itemize}
+\end{frame}
+
+% Methodology
+\section{Methodology}
+\begin{frame}{Methodology}
+\begin{enumerate}
+    \item Identification of fundamental programming concepts
+    \item Study of programming paradigms
+    \item Mathematical analysis of algorithms
+    \item Comparative analysis of programming languages
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Algorithm Performance Analysis}
+Algorithm execution time is represented by Equation~(1):
+
+\begin{equation}
+T(n) = n^2 + n + 1
+\end{equation}
+
+\begin{itemize}
+    \item Equation~(1) shows growth with input size
+    \item Used to estimate algorithm efficiency
+\end{itemize}
+\end{frame}
+
+%  FIGURE
+\begin{frame}{Applications of Programming}
+\begin{itemize}
+    \item Programming impacts multiple computing domains
+    \item Figure~\ref{fig:apps} illustrates major application areas
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.28\textwidth]{programming_domains}
+\caption{Major Application Areas of Programming}
+\label{fig:apps}
+\end{figure}
+\end{frame}
+
+% TABLE 
+\begin{frame}{Programming Language Comparison}
+\begin{itemize}
+    \item Languages differ based on paradigm and usage
+    \item Table~\ref{tab:lang} compares common programming languages
+\end{itemize}
+
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Language & Paradigm & Application Area \\
+\hline
+C & Procedural & System Programming \\
+Java & Object-Oriented & Application Development \\
+Python & Multi-Paradigm & Data Science \\
+\hline
+\end{tabular}
+\caption{Comparison of Programming Languages}
+\label{tab:lang}
+\end{table}
+\end{frame}
+
+% Applications of Programming 
+\section{Applications of Programming}
+\begin{frame}{Applications of Programming}
+\begin{itemize}
+    \item Software and application development
+    \item Operating systems
+    \item Web and cloud computing
+    \item Embedded systems and IoT
+    \item Artificial intelligence and data science
+\end{itemize}
+\end{frame}
+% Programming in modern systems
+\section{Programming in Modern Systems}
+
+\begin{frame}{Programming in Modern Computing Systems}
+\begin{itemize}
+    \item Core component of operating systems.
+    \item Enables cloud scalability and automation.
+    \item Critical in AI and real-time systems.
+    \item Supports distributed and high-performance computing.
+\end{itemize}
+\end{frame}
+
+% Comparative Study
+\section{Comparative Study}
+
+\begin{frame}{Comparison of Programming Languages}
+
+\begin{itemize}
+    \item Languages differ based on paradigm and usage
+    \item Table~\ref{tab:lang} compares common programming languages
+\end{itemize}
+
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Language & Paradigm & Application Area \\
+\hline
+C & Procedural & System Programming \\
+Java & Object-Oriented & Application Development \\
+Python & Multi-Paradigm & Data Science \\
+\hline
+\end{tabular}
+\caption{Comparison of Programming Languages}
+\label{tab:lang}
+\end{table}
+
+\end{frame}
+
+% Results
+\section{Results}
+
+\begin{frame}{Results}
+\begin{itemize}
+    \item Strong fundamentals improve problem-solving efficiency.
+    \item Algorithm performance depends on input size.
+    \item Different languages suit different application domains.
+\end{itemize}
+\end{frame}
+
+% Conclusion
+\section{Conclusion}
+
+\begin{frame}{Conclusion}
+\begin{itemize}
+    \item Programming is essential in modern engineering.
+    \item Understanding concepts and paradigms is critical.
+    \item Enables efficient and scalable software solutions.
+    \item Continuous learning is necessary as technology evolves.
+\end{itemize}
+\end{frame}
+
+% Reference
+\section{References}
+
+\begin{frame}{References}
+\footnotesize
+\begin{itemize}
+    \item Kernighan \& Ritchie, \textit{The C Programming Language}
+    \item Herbert Schildt, \textit{Java: The Complete Reference}
+    \item IEEE Author Guidelines
+\end{itemize}
+\end{frame}
+
+\end{document}
+
